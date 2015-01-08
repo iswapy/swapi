@@ -1,0 +1,303 @@
+Sidd Majumdar
+
+
+
+C:\Users\Student>cd/
+
+C:\>cd project
+The system cannot find the path specified.
+
+C:\>cdC:
+'cdC:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>cd C:
+C:\
+
+C:\>cd project
+The system cannot find the path specified.
+
+C:\>cd projects
+
+C:\Projects>cd \day3\bootstrap portfolio
+The system cannot find the path specified.
+
+C:\Projects>cd cd dsy3
+The system cannot find the path specified.
+
+C:\Projects>cd cd day3
+The system cannot find the path specified.
+
+C:\Projects>cd day3
+
+C:\Projects\day3>cd bootstrap portfolio
+
+C:\Projects\day3\bootstrap portfolio>gti status
+'gti' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        12_untouched.jpg
+        bg.jpg
+        bgg.jpg
+        blue_designs_abstract-normal.jpg
+        config.xml
+        cu3er.swf
+        dist/
+        f.png
+        g.png
+        images/
+        index.html
+        q.jpg
+        s.jpg
+        t.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Projects\day3\bootstrap portfolio>git add  12_untouched.jpg bg.jpg bgg.jpg bl
+ue_designs_abstract-normal.jpg config.xml cu3er.swf dist/ f.png g.png images/ in
+dex.html q.jpg s.jpg t.png
+warning: LF will be replaced by CRLF in dist/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/css/bootstrap.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/css/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/fonts/glyphicons-halflings-regular.
+svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/bootstrap.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/jquery-1.11.2.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/npm.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/swfobject.js.
+The file will have its original line endings in your working directory.
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   12_untouched.jpg
+        new file:   bg.jpg
+        new file:   bgg.jpg
+        new file:   blue_designs_abstract-normal.jpg
+        new file:   config.xml
+        new file:   cu3er.swf
+        new file:   dist/css/bootstrap-theme.css
+        new file:   dist/css/bootstrap-theme.css.map
+        new file:   dist/css/bootstrap-theme.min.css
+        new file:   dist/css/bootstrap.css
+        new file:   dist/css/bootstrap.css.map
+        new file:   dist/css/bootstrap.min.css
+        new file:   dist/css/style.css
+        new file:   dist/fonts/glyphicons-halflings-regular.eot
+        new file:   dist/fonts/glyphicons-halflings-regular.svg
+        new file:   dist/fonts/glyphicons-halflings-regular.ttf
+        new file:   dist/fonts/glyphicons-halflings-regular.woff
+        new file:   dist/js/bootstrap.js
+        new file:   dist/js/bootstrap.min.js
+        new file:   dist/js/expressInstall.swf
+        new file:   dist/js/jquery-1.11.2.min.js
+        new file:   dist/js/npm.js
+        new file:   dist/js/swfobject.js
+        new file:   f.png
+        new file:   g.png
+        new file:   images/slideBg.jpg
+        new file:   index.html
+        new file:   q.jpg
+        new file:   s.jpg
+        new file:   t.png
+
+
+C:\Projects\day3\bootstrap portfolio>git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Student@ITLABIII-PC-23.(none)')
+
+
+C:\Projects\day3\bootstrap portfolio>git config --global user.email "swapnilvern
+ekar07@gmail.com"
+
+C:\Projects\day3\bootstrap portfolio>git config --global user.name "Swapnil Vern
+ekar"
+
+C:\Projects\day3\bootstrap portfolio>git commit
+[master (root-commit) 07b53ae] My First Commit
+warning: LF will be replaced by CRLF in dist/css/bootstrap-theme.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/css/bootstrap-theme.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/css/bootstrap.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/css/bootstrap.min.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/fonts/glyphicons-halflings-regular.
+svg.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/bootstrap.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/bootstrap.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/jquery-1.11.2.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/npm.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in dist/js/swfobject.js.
+The file will have its original line endings in your working directory.
+ 30 files changed, 10440 insertions(+)
+ create mode 100644 12_untouched.jpg
+ create mode 100644 bg.jpg
+ create mode 100644 bgg.jpg
+ create mode 100644 blue_designs_abstract-normal.jpg
+ create mode 100644 config.xml
+ create mode 100644 cu3er.swf
+ create mode 100644 dist/css/bootstrap-theme.css
+ create mode 100644 dist/css/bootstrap-theme.css.map
+ create mode 100644 dist/css/bootstrap-theme.min.css
+ create mode 100644 dist/css/bootstrap.css
+ create mode 100644 dist/css/bootstrap.css.map
+ create mode 100644 dist/css/bootstrap.min.css
+ create mode 100644 dist/css/style.css
+ create mode 100644 dist/fonts/glyphicons-halflings-regular.eot
+ create mode 100644 dist/fonts/glyphicons-halflings-regular.svg
+ create mode 100644 dist/fonts/glyphicons-halflings-regular.ttf
+ create mode 100644 dist/fonts/glyphicons-halflings-regular.woff
+ create mode 100644 dist/js/bootstrap.js
+ create mode 100644 dist/js/bootstrap.min.js
+ create mode 100644 dist/js/expressInstall.swf
+ create mode 100644 dist/js/jquery-1.11.2.min.js
+ create mode 100644 dist/js/npm.js
+ create mode 100644 dist/js/swfobject.js
+ create mode 100644 f.png
+ create mode 100644 g.png
+ create mode 100644 images/slideBg.jpg
+ create mode 100644 index.html
+ create mode 100644 q.jpg
+ create mode 100644 s.jpg
+ create mode 100644 t.png
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+nothing to commit, working directory clean
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        qw.jpg
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Projects\day3\bootstrap portfolio>git add qw.jpg index.html
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+        new file:   qw.jpg
+
+
+C:\Projects\day3\bootstrap portfolio>git commit
+Aborting commit due to empty commit message.
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+        new file:   qw.jpg
+
+
+C:\Projects\day3\bootstrap portfolio>git commit
+[master 8ff9464] Megssage
+ 2 files changed, 4 insertions(+)
+ create mode 100644 qw.jpg
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+nothing to commit, working directory clean
+
+C:\Projects\day3\bootstrap portfolio>git remote add origin https://github.com/sw
+apnilvernekar07/swapi.git
+
+C:\Projects\day3\bootstrap portfolio>git push  origin master
+Username for 'https://github.com': swapnilvernekar07
+Password for 'https://swapnilvernekar07@github.com':
+Counting objects: 40, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (39/39), done.
+Writing objects: 100% (40/40), 3.81 MiB | 33.00 KiB/s, done.
+Total 40 (delta 5), reused 0 (delta 0)
+To https://github.com/swapnilvernekar07/swapi.git
+ * [new branch]      master -> master
+
+C:\Projects\day3\bootstrap portfolio>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+C:\Projects\day3\bootstrap portfolio>git pull  origin master
+From https://github.com/swapnilvernekar07/swapi
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+C:\Projects\day3\bootstrap portfolio>git add readme.md
+fatal: pathspec 'readme.md' did not match any files
+
+C:\Projects\day3\bootstrap portfolio>touch README.md
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Projects\day3\bootstrap portfolio>git status
+error launching git: The requested operation requires elevation.
+
+C:\Projects\day3\bootstrap portfolio>git status
+error launching git: The requested operation requires elevation.
+
+C:\Projects\day3\bootstrap portfolio>git
+error launching git: The requested operation requires elevation.
+
+C:\Projects\day3\bootstrap portfolio>
