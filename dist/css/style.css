@@ -1,0 +1,58 @@
+html,body
+{
+    height: 100%;
+    width: 100%;   
+}
+
+#intro
+{
+    background: url(../../12_untouched.jpg) no-repeat fixed;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 15px;
+}
+#about
+{
+    background: url(../../bgg.jpg);
+    box-shadow:5px 5px 5px black;
+}
+
+
+
+#intro p
+{
+    text-align: left;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    top: 100px;
+    left: 50px;
+    
+}
+.text-center
+{
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+#contact
+{
+    text-align: center;
+    color: Purple;
+    box-shadow: 5px 5px 5px black;
+    background: url(../../s.jpg);
+}
+
+#contact img
+{
+    height: 40px;
+    width: 40px;
+}
+

@@ -1,0 +1,153 @@
+﻿    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Swapi</title>
+
+        <!-- Bootstrap -->
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="dist/css/style.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+      <body>
+
+
+          <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Swapnil Vernekar 
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#intro">INFO <span class="sr-only">(current)</span></a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+              
+          <ul class="nav navbar-nav navbar-left">
+            <li><a href="#contact">CONTACT ME</a></li>
+          </ul>
+<!--
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">QUALIFICATIONS <span class="caret"></span></a>
+
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">S.S.C.</a></li>
+                <li><a href="#">H.S.S.C.</a></li>
+                <li><a href="#">B.E.</a></li>
+                <li class="divider"></li>
+                <li><a href="#">INTERNSHIPS</a></li>
+                <li class="divider"></li>
+                <li><a href="#">JOB EXPERIENCE</a></li>
+              </ul>
+            </li>
+-->
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="button" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 
+    </button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid --> 
+    </nav>
+
+          <!--  STEP ONE: insert path to SWFObject JavaScript -->
+          <script type="text/javascript" src="/dist/js/swfobject.js"></script>
+
+          <!--  STEP TWO: configure SWFObject JavaScript and embed CU3ER slider -->
+          <script type="text/javascript">
+              var flashvars = {};
+              flashvars.xml = "config.xml";
+              flashvars.font = "font.swf";
+              var attributes = {};
+              attributes.wmode = "transparent";
+              attributes.id = "slider";
+              swfobject.embedSWF("cu3er.swf", "cu3er-container", "800", "360", "9", "expressInstall.swf", flashvars, attributes);
+          </script>
+      <div id=intro class="container">
+          <h1>Hello People</h1><p>Helllooooooooo...........</p>
+          </div>
+
+
+    <div id=about class="container">
+          <h2 class="text-centr">About Me</h2> <hr/>
+        <div class="row">
+            <div class="col-sm-3 col-xs-6 text-center">
+                <i class="glyphicon glyphicon-book"></i>
+                <h4><b>Languages</b></h4>
+                <p>C/C++</p>
+                <p>Java</p>
+                <p>HTML</p>
+                <p>XML</p>
+                <p>PHP</p>
+                <p>Python</p>
+            </div>
+
+            <div class="col-sm-3 col-xs-6  text-center">
+                <i class="glyphicon glyphicon-play-circle"></i>
+                <h4><b>Interests</b></h4>
+                <p>Bike Trips</p>
+                <p>Playing PC Games</p>
+                <p>Watching TV series</p>
+                <p>Research on Internet</p>
+            </div>
+            <div class="col-sm-3 col-xs-6  text-center">
+                <i class="glyphicon glyphicon-flag"></i>
+                <h4><B>Hobbies</B></h4>
+                <p>Killing Tigers</p>
+                <p>Hunting Rhinos</p>
+                <p>Swimming with Sharks</p>
+                <p>Boxing with Kangaroos</p>
+            </div>
+            <div class="col-sm-3 col-xs-6  text-center">
+                <i class="glyphicon glyphicon-map-marker"></i>
+                <h4><b>Courses</b></h4>
+                <p>CCNA</p>
+                <p>CEH</p>
+                <p>CCNP</p>
+                <p>RedHat Linux</p>
+                <p>Cyber Security</p>
+            </div>
+
+        </div>    
+          </div><hr/>
+
+          <div id=contact class="container">
+              <i class=" glyphicon glyphicon-fire"> 
+                 <b>Contact</b></i>
+              <p>Canacona-Goa</br>India</body><br>Pin:403702</p><br/>
+            <a href="http://www.facebook.com/swapnil07"><img src="f.png"> </a>
+            <a href="http://www.twitter.com/vernekarswapnil"><img src="t.png"> </a>
+            <a href="http://www.google.com"><img src="g.png"> </a><br/><br/><br/><br/><br/>
+
+            </div>
+
+
+
+          </div>
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="dist/js/jquery-1.11.2.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="dist/js/bootstrap.min.js"></script>
+      </body>
+    </html>
