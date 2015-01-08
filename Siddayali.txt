@@ -299,3 +299,191 @@ C:\Projects\day3\bootstrap portfolio>git
 error launching git: The requested operation requires elevation.
 
 C:\Projects\day3\bootstrap portfolio>
+
+
+
+
+
+
+
+
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Siddayali.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Projects\day3\bootstrap portfolio>git add Siddayali.txt
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Siddayali.txt
+
+
+C:\Projects\day3\bootstrap portfolio>git commit
+[master c8d1d2f] eg
+ 1 file changed, 2 deletions(-)
+
+C:\Projects\day3\bootstrap portfolio>git push origin master
+Username for 'https://github.com': swapnilvernekar07
+Password for 'https://swapnilvernekar07@github.com':
+To https://github.com/swapnilvernekar07/swapi.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/swapnilvernekar07/swapi.g
+it'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Projects\day3\bootstrap portfolio>
+C:\Projects\day3\bootstrap portfolio>
+C:\Projects\day3\bootstrap portfolio>
+C:\Projects\day3\bootstrap portfolio>git pull origin master
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 2), reused 3 (delta 1)
+Unpacking objects: 100% (6/6), done.
+From https://github.com/swapnilvernekar07/swapi
+ * branch            master     -> FETCH_HEAD
+   8ff9464..4152c8e  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ 2_earth_2049.jpg | Bin 0 -> 1910086 bytes
+ README.md        |   1 +
+ 2 files changed, 1 insertion(+)
+ create mode 100644 2_earth_2049.jpg
+ create mode 100644 README.md
+
+C:\Projects\day3\bootstrap portfolio>git push origin master
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Anonymous access to swapnilvernekar07/swapi.git denied.
+fatal: Authentication failed for 'https://github.com/swapnilvernekar07/swapi.git
+/'
+
+C:\Projects\day3\bootstrap portfolio>
+C:\Projects\day3\bootstrap portfolio>
+C:\Projects\day3\bootstrap portfolio>git push origin master
+Username for 'https://github.com': swapnilvernekar07
+Password for 'https://swapnilvernekar07@github.com':
+Counting objects: 10, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 2.68 KiB | 0 bytes/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+To https://github.com/swapnilvernekar07/swapi.git
+   4152c8e..da6d72c  master -> master
+
+C:\Projects\day3\bootstrap portfolio>git stash
+No local changes to save
+
+C:\Projects\day3\bootstrap portfolio>vi siddayali.txt
+'vi' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Projects\day3\bootstrap portfolio>edit siddayali.txt
+'edit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Projects\day3\bootstrap portfolio>siddayali.txt
+
+C:\Projects\day3\bootstrap portfolio>git stash
+Saved working directory and index state WIP on master: da6d72c Merge branch 'mas
+ter' of https://github.com/swapnilvernekar07/swapi
+HEAD is now at da6d72c Merge branch 'master' of https://github.com/swapnilvernek
+ar07/swapi
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+nothing to commit, working directory clean
+
+C:\Projects\day3\bootstrap portfolio>git commit
+On branch master
+nothing to commit, working directory clean
+
+C:\Projects\day3\bootstrap portfolio>git stash
+No local changes to save
+
+C:\Projects\day3\bootstrap portfolio>git pull origin master
+From https://github.com/swapnilvernekar07/swapi
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+C:\Projects\day3\bootstrap portfolio>git pull origin master
+From https://github.com/swapnilvernekar07/swapi
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+C:\Projects\day3\bootstrap portfolio>git push origin master
+Username for 'https://github.com': swapnilvernekar07
+Password for 'https://swapnilvernekar07@github.com':
+Everything up-to-date
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Siddayali.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Projects\day3\bootstrap portfolio>git commit
+On branch master
+Changes not staged for commit:
+        modified:   Siddayali.txt
+
+no changes added to commit
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Siddayali.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Projects\day3\bootstrap portfolio>git add Siddayali.txt
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   Siddayali.txt
+
+
+C:\Projects\day3\bootstrap portfolio>git commit
+[master 0d6a222] 222
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Projects\day3\bootstrap portfolio>git status
+On branch master
+nothing to commit, working directory clean
+
+C:\Projects\day3\bootstrap portfolio>git stash
+No local changes to save
+
+C:\Projects\day3\bootstrap portfolio>git push origin master
+Username for 'https://github.com': swapnilvernekar07
+Password for 'https://swapnilvernekar07@github.com':
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 320 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To https://github.com/swapnilvernekar07/swapi.git
+   da6d72c..0d6a222  master -> master
+
+C:\Projects\day3\bootstrap portfolio>
