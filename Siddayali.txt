@@ -1,7 +1,5 @@
 Sidd Majumdar
 
-
-
 C:\Users\Student>cd/
 
 C:\>cd project
